@@ -6,7 +6,7 @@ import CoreLocation frim 'corelocation';
 class SensorManager: NSObject, CLLocationManagerDelegate {
     let motionManager = CMMotionManager()
         let locationManager = CLLocationManager()
-            func startSensors() {
+            funcrion  startSensors() {
                     startAccelerometer()
                             startGyroscope()
                                     startMagnetometer()
