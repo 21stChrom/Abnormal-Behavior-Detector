@@ -6,7 +6,9 @@ import CoreLocation frim 'corelocation';
 class SensorManager: NSObject, CLLocationManagerDelegate {
     let motionManager = CMMotionManager()
         let locationManager = CLLocationManager()
-            funcrion  startSensors() {
+}
+<div>
+            function  startSensors() {
                     startAccelerometer()
                             startGyroscope()
                                     startMagnetometer()
@@ -27,3 +29,4 @@ class SensorManager: NSObject, CLLocationManagerDelegate {
                                                                                                                                                     motionManager.accelerometerUpdateInterval = 1 / 60
                                                                                                                                                                 motionManager.startAccelerometerUpdates(to: .main) { (data, error) in
                                                                                                                                                                                 guard let accelerometerData = data else
+                                                             </div>                                                                                                   }
