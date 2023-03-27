@@ -1,8 +1,8 @@
-modify this code to detect seizures
-code for an iOS app that can detect and monitor all the 13 sensors on a device:
-```swift
-import CoreMotion
-import CoreLocation
+
+
+import React from ' react';'
+import CoreMotion from 'coremotion';
+import CoreLocation frim 'corelocation';
 class SensorManager: NSObject, CLLocationManagerDelegate {
     let motionManager = CMMotionManager()
         let locationManager = CLLocationManager()
