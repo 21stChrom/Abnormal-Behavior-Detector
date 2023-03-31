@@ -1,12 +1,13 @@
 
 
-import React from ' react';'
+import React from ' react';
 import CoreMotion from 'coremotion';
-import CoreLocation frim 'corelocation';
-class SensorManager: NSObject, CLLocationManagerDelegate {
+import CoreLocation from 'corelocation';
+
+class SensorManager{ NSObject}CLLocationManagerDelegate 
     let motionManager = CMMotionManager()
         let locationManager = CLLocationManager()
-}
+
 <div>
             function  startSensors() {
                     startAccelerometer()
